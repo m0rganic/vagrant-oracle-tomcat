@@ -1,0 +1,8 @@
+---
+# file: dbservers.yml
+- hosts: dbservers
+  sudo: true
+  roles:
+    - common
+    - oracle
+

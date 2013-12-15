@@ -1,0 +1,6 @@
+.vagrant
+vagrant_ansible_inventory_default
+download/*.zip
+download/Disk1
+download/Disk2
+.DS_Store
