@@ -1,0 +1,9 @@
+---
+# file: webservers.yml
+- hosts: webservers
+  sudo: true
+  roles:
+    - common
+    - iptables
+    - tomcat
+

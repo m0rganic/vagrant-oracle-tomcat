@@ -1,0 +1,5 @@
+---
+# Configure iptables. This is needed for vagrant
+- name: deploy iptables rules
+  template: src=iptables-save dest=/etc/sysconfig/iptables
+  notify: restart iptables
