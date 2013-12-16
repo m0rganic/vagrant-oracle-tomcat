@@ -3,7 +3,7 @@ vagrant-oracle-tomcat
 
 Run `vagrant up` to provision guest vm all-in-one system running Oracle 11g XE and tomcat.
 
-*Tested using*
+*Tested with the following configuration*
 
 **host system**
 
