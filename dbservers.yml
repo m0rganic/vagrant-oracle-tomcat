@@ -4,6 +4,5 @@
   sudo: true
   roles:
     - common
-    - iptables
     - {role: oracle, tags: ["oracle"]}
 
