@@ -5,5 +5,5 @@
   roles:
     - common
     - iptables
-    - oracle
+    - {role: oracle, tags: ["oracle"]}
 

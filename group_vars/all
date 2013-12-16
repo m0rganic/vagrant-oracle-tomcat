@@ -1,6 +1,9 @@
 # Here are variables related to the Tomcat installation
 
-http_port: 8080
+tomcat_version: 7.0.47
+tomcat_download_url: "http://apache.spinellicreations.com/tomcat/tomcat-7/v{{ tomcat_version }}/bin/apache-tomcat-{{ tomcat_version }}.tar.gz"
+
+http_port: 3000
 https_port: 8443
 
 # This will configure a default manager-gui user:
@@ -10,4 +13,8 @@ admin_password: adminsecret
 
 # Here are variables related to the oracle installation
 
-oracle_port: 1521
+oracle_http_port: 8080
+oracle_db_port: 1521
+
+# This is the password for SYS user 
+oracle_password: manager
